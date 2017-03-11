@@ -38,10 +38,11 @@ h6 {
   font-family: 'Lato', sans-serif;
 }
 p {
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
 .bg-primary {
   background-color: #337ab7;
 }
@@ -170,7 +171,7 @@ header .header-content .header-content-inner h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
+  font-size: 60px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -178,7 +179,7 @@ header .header-content .header-content-inner hr {
 header .header-content .header-content-inner p {
   font-weight: 300;
   color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
+  font-size: 25px;
   margin-bottom: 50px;
 }
 @media (min-width: 768px) {
@@ -202,7 +203,7 @@ header .header-content .header-content-inner p {
     font-size: 100px;
   }
   header .header-content .header-content-inner p {
-    font-size: 25px;
+    font-size: 35px;
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
@@ -214,6 +215,10 @@ header .header-content .header-content-inner p {
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
+}
+
+.service-box p{
+    font-size: 20px;
 }
 @media (min-width: 992px) {
   .service-box {
@@ -338,7 +343,13 @@ fieldset[disabled] .btn-primary.active {
   text-transform: uppercase;
 }
 .btn-xl {
-  padding: 15px 30px;
+  padding: 20px 40px;
+  font-size: 20px;
+}
+
+.btn-xxl{
+  padding: 25px 50px;
+  font-size: 25px;
 }
 ::-moz-selection {
   color: white;
