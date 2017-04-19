@@ -29,6 +29,11 @@ a:hover,
 a:focus {
   color: #eb3812;
 }
+
+.signupButton{
+  margin:2%;
+}
+
 h1,
 h2,
 h3,
